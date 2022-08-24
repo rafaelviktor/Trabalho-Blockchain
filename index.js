@@ -42,7 +42,4 @@ function IniciarBlockchain() {
         return cadeiaHashs;
 }
 
-
-
-
 console.log(IniciarBlockchain());
