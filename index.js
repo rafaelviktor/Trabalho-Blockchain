@@ -72,6 +72,7 @@ function IniciarBlockchain() {
         return cadeiaHashs;
 }
 
+// função que valida a blockchain
 function ValidaBlockchain(cadeiaHashs) {
         // loop que percorre todo o array de hashs procurando hash inválido
         for(let i = 0;i <= (qtdIteracoes); i++) {
